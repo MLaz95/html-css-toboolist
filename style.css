@@ -71,6 +71,7 @@ button#section:hover{
 }
 /* end button style */
 
+/* list bullet point style */
 h2{
     margin-bottom: 10px;
 }
@@ -100,3 +101,4 @@ ul li.to-do:before{
     font-weight: bold;
     margin-right: 1em;
 }
+/* end list bullet point style */
