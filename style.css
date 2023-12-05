@@ -3,11 +3,15 @@
     margin: 0;
 }
 
+body{
+    background-color: #f6f8f9;
+}
 /* header with logo */
 header{
-    /* background-color: pink; */
     height: 70px;
     padding: 10px 20px;
+    margin-bottom: 30px;
+    background-color: white;
 }
 
 header > img{
@@ -20,3 +24,48 @@ h1{
 }
 /* NEEDS FIXING */
 /* end of header */
+
+main{
+    background-color: pink;
+    width: 70%;
+    margin: auto;
+    border-radius: 3px;
+}
+
+/* button style */
+menu{
+    list-style-type: none;
+    padding: 15px 50px;
+    border-bottom: #f6f8f9 solid 1px;
+}
+
+menu > li{
+    display: inline-block;
+}
+
+button{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+button#task{
+    background-color: #47adf1;
+    color: white;
+}
+
+button#task:hover{
+    background-color: #2e7fb6;
+}
+
+button#section{
+    background-color: white;
+    border: lightgray 1px solid;
+    color: lightgray;
+}
+
+button#section:hover{
+    background-color: lightgray;
+    color: white;
+}
+/* end button style */
