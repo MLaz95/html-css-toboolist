@@ -2,3 +2,21 @@
     box-sizing: border-box;
     margin: 0;
 }
+
+/* header with logo */
+header{
+    /* background-color: pink; */
+    height: 70px;
+    padding: 10px 20px;
+}
+
+header > img{
+    vertical-align: middle;
+}
+
+h1{
+    display: inline-block;
+    
+}
+/* NEEDS FIXING */
+/* end of header */
