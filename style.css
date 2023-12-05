@@ -69,3 +69,22 @@ button#section:hover{
     color: white;
 }
 /* end button style */
+
+h2{
+    margin-bottom: 10px;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+}
+
+ul li.done:before{
+    content: "\2713";
+    color: #6dc4af;
+    border: #6dc4af 2px solid;
+    border-radius: 50%;
+    padding: 3px;
+    font-weight: bold;
+    margin-right: 1em;
+}
