@@ -21,12 +21,12 @@ header{
     height: 50px;
     background-image: url(img/Logo.png);
     vertical-align: middle;
-    margin-bottom: 10px;
 }
 
 h1{
     display: inline-block;
     line-height: 50px;
+    vertical-align: middle;
 }
 /* end of header */
 
@@ -65,7 +65,7 @@ button#task:hover{
 }
 
 button#section{
-    background-color: white;
+    background-color: transparent;
     border: lightgray 1px solid;
     color: lightgray;
 }
